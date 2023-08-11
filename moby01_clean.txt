@@ -1,8 +1,0 @@
-in this code we import the string module to get access to the punctuation constant which is a string
-containing all punctuation characters we use the strmaketrans method to create a translation table that maps
-each punctuation character to none effectively removing them from the line
-then we use the lower method to convert the line to lowercase
-and the split method to split the line into a list of words
-finally we write the cleaned words back to the outfile by joining them with spaces using joinwords
-and append a newline character n at the end of each line
-make sure to adjust the file names moby01txt and moby01cleantxt to match your specific file names

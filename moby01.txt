@@ -1,8 +1,0 @@
-In this code, we import the string module to get access to the punctuation constant, which is a string
-containing all punctuation characters. We use the str.maketrans() method to create a translation table that maps;
-each punctuation character to None, effectively removing them from the line.
-Then, we use the lower() method to convert the line to lowercase,
-and the split() method to split the line into a list of words.
-Finally, we write the cleaned words back to the outfile by joining them with spaces using " ".join(words),
-and append a newline character \n at the end of each line.
-Make sure to adjust the file names "moby_01.txt" and "moby_01_clean.txt" to match your specific file names.
